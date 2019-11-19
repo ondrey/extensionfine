@@ -7,8 +7,8 @@ window.onload = function(){
     document.getElementsByClassName("checker")[0].click();
   }
 
-  var ready = function(){
-    console.log("Запускаем парсер");
+  var ready = function(q){
+    console.log("Запускаем парсер", q);
   }
 
   document.getElementsByClassName("checkResult")[0].addEventListener("DOMSubtreeModified", ready);
