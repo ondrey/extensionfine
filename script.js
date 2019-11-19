@@ -1,7 +1,7 @@
 window.onload = function(){
-  document.getElementById("checkFinesRegnum").value = "С289УА";
-  document.getElementById("checkFinesRegreg").value = "750";
-  document.getElementById("checkFinesStsnum").value = "9909237316";
+  document.getElementById("checkFinesRegnum").value = "d";
+  document.getElementById("checkFinesRegreg").value = "d";
+  document.getElementById("checkFinesStsnum").value = "d";
 
   var sayHi = function(){
     document.getElementsByClassName("checker")[0].click();
